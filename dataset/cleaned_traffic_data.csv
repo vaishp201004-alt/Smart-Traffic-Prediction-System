@@ -1,0 +1,11 @@
+Date,Time,Road_Name,Vehicle_Count,Average_Speed,Weather,Temperature,Humidity,Visibility,Holiday,Event,Accident_Nearby,Traffic_Level
+2026-07-01,08:00,MG Road,320,28,Sunny,32,60,1000,No,None,No,High
+2026-07-01,09:00,MG Road,410,20,Rainy,29,85,600,No,None,Yes,Very High
+2026-07-01,10:00,College Road,180,45,Sunny,33,55,1200,No,None,No,Medium
+2026-07-01,11:00,Station Road,90,62,Sunny,34,48,1500,No,None,No,Low
+2026-07-01,17:00,Market Road,520,15,Rainy,28,88,500,No,Festival,Yes,Very High
+2026-07-01,18:00,Bus Stand Road,470,18,Cloudy,30,70,900,No,None,No,High
+2026-07-02,08:00,Airport Road,250,40,Sunny,31,58,1300,No,None,No,Medium
+2026-07-02,09:00,Ring Road,380,24,Foggy,27,82,400,No,None,No,High
+2026-07-02,19:00,City Center,560,12,Rainy,26,90,300,No,Concert,Yes,Very High
+2026-07-03,14:00,College Road,140,55,Sunny,35,45,1600,No,None,No,Low
