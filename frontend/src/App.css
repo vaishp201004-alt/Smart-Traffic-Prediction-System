@@ -1,46 +1,41 @@
-.container{
-  width:700px;
-  margin:auto;
-  padding:30px;
+#root {
+  width: 100%;
+}
+body{
+    transition:0.4s;
 }
 
-h1{
-  text-align:center;
-  color:#1565c0;
+.card{
+    transition:0.4s;
 }
 
-p{
-  text-align:center;
-  margin-bottom:30px;
+.bg-dark .card{
+    background:#2b2b2b;
+    color:white;
 }
 
-.form-container{
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-  background:white;
-  padding:25px;
-  border-radius:10px;
-  box-shadow:0 0 10px rgba(0,0,0,.15);
+.bg-dark input,
+.bg-dark select{
+    background:#444;
+    color:white;
+    border:1px solid #666;
 }
 
-input,
-select{
-  padding:10px;
-  font-size:16px;
+.bg-dark input::placeholder{
+    color:#ddd;
 }
 
-button{
-  margin-top:20px;
-  padding:12px;
-  font-size:18px;
-  background:#1976d2;
-  color:white;
-  border:none;
-  border-radius:8px;
-  cursor:pointer;
+.bg-dark table{
+    color:white;
 }
 
-button:hover{
-  background:#0d47a1;
+.bg-dark .table-striped>tbody>tr:nth-of-type(odd){
+    color:white;
+}
+
+.bg-dark .table{
+    color:white;
+}
+body {
+  overflow-x: hidden;
 }
